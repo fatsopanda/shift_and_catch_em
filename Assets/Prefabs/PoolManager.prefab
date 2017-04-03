@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1254462591721234}
+  m_IsPrefabParent: 1
+--- !u!1 &1254462591721234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4120890638974798}
+  - component: {fileID: 114107148107177926}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: PoolManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4120890638974798
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254462591721234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.775224, y: 0.7031953, z: 1.3125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114107148107177926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1254462591721234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37dddfccac4064c4890871fe2eb6256b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bulletLimit: 100
+  m_bulletObject: {fileID: 130322, guid: 02fa6ae2f4eec4662b7f62f4fe77359d, type: 2}
+  m_bulletPool: []
+  m_meteorLimit: 12
+  m_meteorObject1: {fileID: 194024, guid: 38129804d07d74649ab8af661e59ecfb, type: 2}
+  m_meteorObjectPool1: []
+  m_meteorObject2: {fileID: 194024, guid: 35ed5f8f3b31b417cb6646b7a56da610, type: 2}
+  m_meteorObjectPool2: []
+  m_meteorObject3: {fileID: 108538, guid: 2a741717f88f04b9c976ddde13f8989a, type: 2}
+  m_meteorObjectPool3: []
+  m_collectableLimit: 15
+  m_sushiObject: {fileID: 113458, guid: d7b00d39623474d9a99043c46c56255b, type: 2}
+  m_sushiObjectPool: []
+  m_burgerObject: {fileID: 197272, guid: 16299ea923a4e479b93ee78bf6c32940, type: 2}
+  m_burgerObjectPool: []
+  m_donutObject: {fileID: 144958, guid: 75162c235cfa64f78bd91249c33d8a8d, type: 2}
+  m_donutObjectPool: []
+  m_backgroundMeteorObjects:
+  - {fileID: 193112, guid: feed00128e86c49d088baa75632576df, type: 2}
+  - {fileID: 156220, guid: d67bae1028b0e49608f28ccbffd519b6, type: 2}
+  - {fileID: 151852, guid: 2cf9937fb52994b0bbdd3803afe1953b, type: 2}
+  - {fileID: 163640, guid: 4c39897ea182a49539d647a27d88ea2c, type: 2}
+  - {fileID: 182316, guid: 4cf071d299eb4499a89b33e8c7fe37f6, type: 2}
+  - {fileID: 128818, guid: 7c68bff066c4c4a5885c8c15dc5b76cb, type: 2}
+  - {fileID: 138098, guid: e19183a1bc8134c068a853961fad6b46, type: 2}
+  - {fileID: 144700, guid: 0fdcd5aa4d6c745df836f7835f0d9eef, type: 2}
+  - {fileID: 120916, guid: f8d8f96e712ae44fcbc4c8208e06aba9, type: 2}
+  - {fileID: 172912, guid: 5ee34059b5cb748a49b759f7d11353a4, type: 2}
+  - {fileID: 189320, guid: 035359d07b06e45bda227e89e2b652b3, type: 2}
+  - {fileID: 121544, guid: 44127228653d44ed5ab6ccb6b8c2a2a1, type: 2}
+  - {fileID: 148920, guid: 62772225239274dc384fbe91786c0006, type: 2}
+  - {fileID: 184042, guid: 0daf7cbb6469747ba97932c5cc402aaa, type: 2}
+  - {fileID: 116338, guid: 56b42a77fc43c406f90d6530ccf850e5, type: 2}
+  - {fileID: 183614, guid: 2a35d03c60646412ab72a4a7f3df45a4, type: 2}
+  m_backgroundMeteorObjectPool: []
